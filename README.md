@@ -8,7 +8,7 @@ Run `npm install` to get all project dependencies installed on your local enviro
 
 ## Development server
 
-Run `npm start` for a dev server. Navigate to http://localhost:3000/. The app will automatically reload if you change any of the source files since the project uses _nodemon_.
+Run `npm start` for a dev server. Navigate to http://localhost:3000/users. The app will automatically reload if you change any of the source files since the project uses _nodemon_.
 
 
 ### General Guidelines
@@ -17,12 +17,11 @@ Run `npm start` for a dev server. Navigate to http://localhost:3000/. The app wi
 - A user could have only two types of accounts: Saving and Checking.
     -   The user can only have one checking account.
     -   The user can only have one saving account.
-- The users can transfer money to other accounts.
+- The users can transfer money from one account to another account.
 
 ### Your assignment:
 
--   Create a new transfer endpoint that enables users to transfer money to other accounts.
-    -   The users can only transfer money from checking-to-checking accounts.
+-   Create a new transfer endpoint that enables users to transfer money to only checking-to-checking account.
 -   The users could create their own deposits, but they should be approved by the system admins to be acknowledged.
 -   The users have 3 free transfers per week. After the users reach the limit, the “Bank/App” should charge 2% of transfer fees on transaction amount.
     -   e.g. Transaction amount of US$ 1,000.00. The transfer fee should be US$ 20.00.
