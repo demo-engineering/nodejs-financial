@@ -1,6 +1,15 @@
 # Simple Banking API
 
-This project is a small API that simulates a banking system API for accounts creation and money transfers. 
+This project is a small API that simulates a banking system API for accounts creation and money transfers.
+
+## Project Setup
+
+Run `npm install` to get all project dependencies installed on your local environment.
+
+## Development server
+
+Run `npm start` for a dev server. Navigate to http://localhost:3000/. The app will automatically reload if you change any of the source files since the project uses _nodemon_.
+
 
 ### General Guidelines
 - This project is about a small financial application.
@@ -53,16 +62,4 @@ POST /api/my-accounts/{accountId}/add-funds
 # Transfer money from source to target account. (Needs validation and charge transfers fee.)
 POST /api/transfer/{sourceAccountId}/{targetAccountId}
 ```
-
-
-
-
-## Project Setup
-
-Run `npm install` to get all project dependencies installed on your local environment.
-
-## Development server
-
-Run `npm start` for a dev server. Navigate to http://localhost:3000/. The app will automatically reload if you change any of the source files since the project uses _nodemon_.
-
 
