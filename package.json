@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-financial",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "express-validator": "^6.14.0",
+    "http-errors": "~1.6.3",
+    "lodash": "^4.17.21",
+    "morgan": "~1.9.1",
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.5",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
+    "@faker-js/faker": "^6.0.0-beta.0",
+    "nodemon": "^2.0.15"
+  }
+}
