@@ -28,9 +28,7 @@ router.post('/create-account', function (req, res, next) {
         type: req.body.type,
         balance: 0
     };
-
-    // TODO: Add validation to check if the user has exceeded the total count of accounts
-
+    
     user.Accounts.push(newAccount)
 
     return res.json(newAccount);
