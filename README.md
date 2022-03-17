@@ -2,6 +2,10 @@
 
 This project is a small API that simulates a banking system API for accounts creation and money transfers.
 
+
+##Dependencies
+The only dependency for this project is NodeJS. Aside from your editor of choice, you should not need any additional software to execute this app.
+
 ## Project Setup
 
 Run `npm install` to get all project dependencies installed on your local environment.
