@@ -1,6 +1,6 @@
 # Simple Banking API
 
-This project is a small api that simulate a simple API for a banking system. 
+This project is a small API that simulates a banking system API for accounts creation and money transfers. 
 
 ### General Guidelines
 - This project is about a small financial application.
