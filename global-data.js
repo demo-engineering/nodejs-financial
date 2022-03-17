@@ -2,8 +2,8 @@ const _ = require("lodash");
 const {faker} = require("@faker-js/faker");
 const moment = require("moment");
 
-
 const users = []
+const fundsToBeApproved = [];
 
 _.times(5, (index) => {
 
@@ -36,5 +36,6 @@ _.times(5, (index) => {
 })
 
 module.exports = {
-    users
+    users,
+    fundsToBeApproved
 }
