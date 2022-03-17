@@ -19,13 +19,15 @@ Run `npm start` for a dev server. Navigate to http://localhost:3000/users. The a
     -   The user can only have one saving account.
 - The users can transfer money from one account to another account.
 
-### Your assignment:
+### Your assignment: Create a new transfer endpoint
 
--   Create a new transfer endpoint that enables users to transfer money to only checking-to-checking account.
--   The users could create their own deposits, but they should be approved by the system admins to be acknowledged.
--   The users have 3 free transfers per week. After the users reach the limit, the “Bank/App” should charge 2% of transfer fees on transaction amount.
+- Create a new transfer endpoint that enables users to transfer money to only checking-to-checking account.
+
+#### Extra points 
+- The users could create their own deposits, but they should be approved by the system admins to be acknowledged.
+- The users have 3 free transfers per week. After the users reach the limit, the Simple Banking API should charge 2% of transfer fees on the transaction amount.
     -   e.g. Transaction amount of US$ 1,000.00. The transfer fee should be US$ 20.00.
--   The user can only close an account if there’s no money in there.
+- The user can only close an account if there’s no money in there.
 
 Feel free to change anything on the project that you would like.
 
