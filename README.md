@@ -10,6 +10,8 @@ Run `npm install` to get all project dependencies installed on your local enviro
 
 Run `npm start` for a dev server. Navigate to http://localhost:3000/users. The app will automatically reload if you change any of the source files since the project uses _nodemon_.
 
+>  The project uses a simple in-memory database located at `./global-data.js` and generates the data using the Faker library.
+> Every time that you restart the server it will generate new data sets. 
 
 ### General Guidelines
 - This project is about a small financial application.

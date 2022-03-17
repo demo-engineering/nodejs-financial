@@ -28,7 +28,7 @@ router.post('/create-account', function (req, res, next) {
         type: req.body.type,
         balance: 0
     };
-    
+
     user.Accounts.push(newAccount)
 
     return res.json(newAccount);
